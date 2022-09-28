@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "plugins": [
+      {
+        "transform": "typescript-json/lib/transform",
+      }
+    ]
+  },
+  "exclude": ["./node_modules/"]
+}
